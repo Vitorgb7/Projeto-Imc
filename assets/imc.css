@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    background-color: rgb(67, 121, 165);
+}
+
+.container{
+    background-color: aliceblue;
+    max-width: 600px;
+    height: 770px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+#conteudo-informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#conteudo-informacao h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#conteudo-informacao li{
+    line-break: auto;
+    font-family:  sans-serif;
+    font-size: 1.2em;
+    list-style: none;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+#conteudo-informacao .segundo-conteudo{
+    padding-left: 200px;   
+}
+
+#sessao-imc{
+    display: flex;
+    flex-direction: column;
+} 
+
+#sessao-imc h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+#sessao-imc label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#entrada-peso{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+#entrada-altura{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+#btn-imc{
+    background-color: rgb(67, 121, 165);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#btn-imc:hover{
+    background-color: rgb(51, 92, 128);
+} 
+
+#resultado{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+}
